@@ -1,0 +1,44 @@
+body {
+	font-family:'Aller';
+}
+.container {
+	margin:0 auto;
+	width:1000px;
+}
+
+table {
+	width:100%;
+	font-size:18px;
+	font-weight:lighter;
+	color:white;
+	border-collapse: collapse;
+}
+
+table thead tr th {
+	background-color: tomato;
+	padding:20px 0;
+	border-left:1px solid white;
+	cursor: pointer;
+}
+
+table thead tr {
+	padding:10px;
+}
+
+tbody tr td {
+	color:black;
+	padding:10px 0;
+}
+
+input {
+	padding:4px;
+}
+
+input,textarea {
+	margin:12px 0;
+	display:block;
+}
+
+#btn {
+	margin-top:100px;
+}
